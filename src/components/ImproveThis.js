@@ -1,8 +1,5 @@
 import React, { Component, PropTypes } from "react";
 
-import Image from "./Image";
-import { Menu, MenuItem, MenuDivider } from "@blueprintjs/core";
-
 class ImproveThis extends Component {
 	static propTypes = {};
 
