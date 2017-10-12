@@ -34,7 +34,7 @@ class Test3 extends Component {
 				<input
 					type="button"
 					value="Click here"
-					onClick={this.incrementCounter}
+					onClick={this.incrementCounter.bind(this)}
 				/>
 			</div>
 		);
