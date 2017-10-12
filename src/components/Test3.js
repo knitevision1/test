@@ -1,3 +1,4 @@
+//code didnt work because instancee of function's context was not bound to this class
 import React, { Component, PropTypes } from "react";
 
 import Image from "./Image";
@@ -34,7 +35,7 @@ class Test3 extends Component {
 				<input
 					type="button"
 					value="Click here"
-					onClick={this.incrementCounter.bind(this)}
+					onClick={() => this.incrementCounter()}
 				/>
 			</div>
 		);
