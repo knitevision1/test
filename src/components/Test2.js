@@ -18,7 +18,7 @@ class Test2 extends Component {
 			{
 				method: "GET"
 			}
-		).then(respsonse => response.results);
+		).then(response => response.results);
 	}
 
 	render() {
